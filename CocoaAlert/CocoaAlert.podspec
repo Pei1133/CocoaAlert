@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaAlert"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "CocoaAlert can make alert quickly."
   spec.swift_version= "4.1"
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                      CocoaAlert can make alert quickly.
+                      CocoaAlert can make alert quickly and easily.
                       DESC
 
   spec.homepage     = "https://github.com/Pei1133/CocoaAlert"
@@ -91,7 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}", "Resources/**/*.{h,m,mm}"
+
+  spec.source_files  = "CocoaAlert", "CocoaAlert/**/*.{h,m,swift}", "Resources/**/*.{h,m,mm}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
